@@ -91,7 +91,6 @@ router.post("/order", async (req, res) => {
     catagory: req.body.catagory
   });
 
-  await orders.populate("customerId");
   const result = await orders.save();
   if (result) res.status(200).send(result);
 });
