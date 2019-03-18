@@ -66,6 +66,12 @@ to run the project :-
 
 
 
+# gotchas 
+
+1) passport authentication not included  
+
+2) some problem is there in reference one document to another
+
 
 
 
