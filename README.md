@@ -26,5 +26,15 @@ to run the project :-
 
 3) check delivery status 
 
-<code> https://localhost:8080/customer/:id (get)</code> 
+<code> https://localhost:8080/customer/status/:id (delivery id) (get)</code>
+
+4) delivery guy will get the status along with dispatch location 
+
+<code> https://localhost:8080/delivery/status (get) </code>  
+
+5) customer can check order status   
+
+<code> https://localhost:8080/customer/allorders (get) </code> 
+
+
 
