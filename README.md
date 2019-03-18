@@ -36,5 +36,36 @@ to run the project :-
 
 <code> https://localhost:8080/customer/allorders (get) </code> 
 
+6) admin can register and login same as user   
+
+<code>https://localhost:8080/admin/register (post) </code> 
+
+<code> { "name":"","email":"", "password":"","confirmPassword":""} </code>
+
+<code>https://localhost:8080/admin/login (post) </code> 
+
+<code> { "email":"", "password":""} </code>
+
+7) admin can check all customers 
+
+<code>https://localhost:8080/admin/customers (get) </code>
+
+8) admin can check the delivery status of particular customer
+
+<code>https://localhost:8080/admin/delivery/:id (delivery id) (post) </code> 
+
+9) delivery boy could change order status 
+
+<code>https://localhost:8080/delivery/setstatus/:id (delivery id) (post) </code> 
+
+10) admin can assign delivery guy 
+
+<code>https://localhost:8080/admin/delivery/:id (order id) (post) </code>
+
+<code> {"name":""} </code>
+
+
+
+
 
 
